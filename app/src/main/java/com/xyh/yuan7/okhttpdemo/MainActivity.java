@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void requestSuccess(String result) throws Exception {
                 TextView textView= (TextView) findViewById(R.id.textview);
                 textView.setText(result);
-                         Log.i("TAG",result);
+
             }
         });
     }
